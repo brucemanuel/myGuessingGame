@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(25deg, rgb(163, 156, 134), rgb(104, 142, 224));
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form, button, input {
+    font-size: 1.2rem;
+    border: none;
+}
+
+.guess-btn {
+    background: white;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.guess-btn:hover {
+    background: rgb(104, 142, 224);
+    color: white;
+}
+
+.rightAnswer {
+    color: green;
+}
+
+.wrongAnswer {
+    color: red;
+}
